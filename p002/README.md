@@ -1,17 +1,4 @@
-# rust-project-euler
-
-## p001 - Multiples of 3 and 5
-
-```rust
-let mut sum = 0;
-for i in 1..1000 {
-    if i % 3 == 0 && i % 5 == 0 {
-        sum += 1;
-    }
-}
-```
-
-## p002 - Even Fibonacci numbers
+# p002 - Even Fibonacci numbers
 
 > 400 万之内所有偶数的斐波那契数字之和。
 >
@@ -21,7 +8,7 @@ for i in 1..1000 {
 >
 > By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-### 解法 1: 枚举法
+## 解法1: 枚举法
 
 - 先准备向量列出 `1、2` 项，并初始值相应的值和索引
 - 开始便利，终止条件为索引到 `4_000_000`
