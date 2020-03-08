@@ -1,6 +1,6 @@
 # rust-project-euler
 
-## p001 - Multiples of 3 and
+## p001 - Multiples of 3 and 5
 
 ```rust
 let mut sum = 0;
